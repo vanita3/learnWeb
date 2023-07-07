@@ -1,0 +1,49 @@
+{% extends 'firstApp/base.html' %}
+{% load static %}
+{% block content %}
+
+  <section id="hero">
+    <div class="hero-container">
+          <div class="carousel-item active" style="background-image: url(static/img/hero-carousel/1.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">I am professional python developer</h2>
+                <p class="animate__animated animate__fadeInUp">I can create website using django ORM.</p>
+                <div class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Enrolled to Get Benefits of low Pricing</div>
+              </div>
+             </div>
+          </div>
+    </div>
+  </section> <!--End Hero Section -->
+
+    <!-- ======= Featured Services Section Section ======= -->
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="bi bi-briefcase"></i>
+            <h4 class="title"><a href="">Python Website</a></h4>
+            <p class="description">Python site can handle anonymous data and cookies without loosing any data </p>
+          </div>
+
+          <div class="col-lg-4 box box-bg">
+            <i class="bi bi-card-checklist"></i>
+            <h4 class="title"><a href="">Python Script</a></h4>
+            <p class="description">Program can be handled independently on computer and perform amazing tasks for users</p>
+          </div>
+
+          <div class="col-lg-4 box">
+            <i class="bi bi-binoculars"></i>
+            <h4 class="title"><a href="">Flask Applications</a></h4>
+            <p class="description">Any small websites can work better in flask and run quickly</p>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Featured Services Section -->
+  
+
+  
+
+{% endblock %}
